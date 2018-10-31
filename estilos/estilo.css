@@ -1,0 +1,149 @@
+* {
+    color: white;
+}
+body{
+    background-color: cornflowerblue;
+    font-family: sans-serif;
+}
+nav li {
+    list-style: none;
+    width: 100px;
+    float: left;
+}
+header {
+    width: 100%;
+    height: 50px;
+}
+main {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+h1 {
+    margin: 10px !important;
+}
+section#info {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+li a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+h1.name-site {
+    color: white;
+    padding-left: 25%;
+}
+h1, p {
+    text-align: center;
+}
+div#pairsGame {
+    width: 70%;
+    margin: 0 auto;
+    height: 450px;
+    border: 2px solid black;
+    text-align: center;
+}
+.parejas{
+    width: 200px;
+    height: 200px;
+    float: left;
+    background: black;
+    margin: 9px;
+}
+
+div[cl^="card"] {
+    height: 45%;
+    width: 23%;
+    margin: 5px;
+    display: inline-block;
+}
+  
+div.cardBlack {
+    background-color: #000;
+}
+div.cardWhite {
+    background-color: cornflowerblue;
+}
+div.card1 {
+    background: url(../imagenes/1.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+div.card2 {
+    background: url(../imagenes/2.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+div.card3 {
+    background: url(../imagenes/3.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+div.card4 {
+    background: url(../imagenes/4.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+section#video {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+.header {
+    width: 80%;
+    float: left;
+}
+nav {
+    width: 20%;
+    float: left;
+}
+@media (max-width: 720px){
+    video#video {
+        width: 300px;
+    }
+    div#pairsGame {
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+        border: 2px solid black;
+        text-align: center;
+    }
+    div[cl^="card"] {
+        height: 85px;
+        width: 21%;
+        margin: 5px;
+        display: inline-block;
+    }
+    nav {
+        width: 100%;
+        float: left;
+    }
+    nav li {
+        list-style: none;
+        width: 40%;
+        float: left;
+        text-align: center;
+    }
+    main {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: 80px 0px;
+    }
+    .next {
+        right: -39px !important;;
+    }
+    .prev, .next {
+        top: 45% !important;
+    }
+    .prev {
+        right: 98% !important;
+    }
+}
